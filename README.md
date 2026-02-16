@@ -1,108 +1,70 @@
 📟 Kode Kurrent '26
 
-Redefining Reality Through Code. > Official portal for the national-level 72-hour hackathon organized by IEEE RGIPT Student Branch.
+Redefining Reality Through Code.
 
-🌌 Overview
-
-Kode Kurrent '26 is not just a website; it is an immersive "Integrated Development Environment" (IDE) experience. Designed for hackers and builders, the platform utilizes a terminal-themed interface to manage registrations, display event tracks, and showcase the hackathon's journey.
-
-📍 Event Details
-
-Location: RGIPT Jais, Amethi, Uttar Pradesh
-
-Duration: 72 Hours of Intense Execution
-
-Dates: 27th - 29th March, 2026
+Kode Kurrent '26 is the second chapter of North India's most high-stakes hackathon, organized by the IEEE RGIPT Student Branch. The portal is designed with a unique "IDE-inspired" interface, providing participants with a 72-hour immersive environment of intense execution, infinite networking, and high-tier innovation.
 
 🛠 Technical Stack
 
-The project is built using a modern, type-safe frontend architecture:
+The project is built using a modern, type-safe frontend architecture optimized for performance and developer experience.
 
-Core Framework: React 18 (Functional Components & Hooks)
+Framework: React 18 (Functional Components & Hooks)
 
 Build Tool: Vite (For near-instant HMR and optimized builds)
 
-Language: TypeScript (Ensuring data integrity across components)
+Language: TypeScript (Strict typing for robust state management)
 
-Styling: Tailwind CSS (Customized for the dark terminal aesthetic)
+Styling: Tailwind CSS (Utility-first CSS for the terminal/dark-mode aesthetic)
 
-Animations: Framer Motion (Smooth "reveal" effects and boot sequences)
+Animations: Framer Motion (For the boot sequence, reveal effects, and smooth transitions)
 
-Icons: Lucide React (Consistent, thin-stroke UI icons)
+Icons: Lucide React / FontAwesome (Integrated IDE-style iconography)
 
 🚀 Key Features
 
-1. The Boot Sequence
+1. Core Kernel Boot Sequence
 
-A cinematic system initialization screen that mimics a kernel loading process, complete with security handshakes and environment loading logs.
+A simulated system initialization screen (kernel_v1.5_init) that handles security handshakes and environment loading before granting access to the main dashboard.
 
-2. IDE-Style Layout
+2. IDE-Inspired UI/UX
 
-Explorer Sidebar: Navigate through project "files" (README.md, schedule.json, team.ts).
+File Explorer Sidebar: Allows users to navigate through "files" like About.md, Schedule.json, and Architects.ts.
 
-Terminal Integration: A persistent footer terminal displaying real-time system status and logs.
-
-Code Background: An ambient, scrolling matrix of code that provides visual depth without distracting from the content.
+Code-Centric Content: Information about the mission, prizes, and tracks is rendered as syntax-highlighted code blocks or markdown files.
 
 3. Deployment Protocol (Registration)
 
-A custom-built form styled as a system deployment configuration. Participants enter "Metadata" (team details) to register for specific tracks:
+A custom-built form interface that mimics a configuration file deployment. It includes:
 
-AI & Automation
+Real-time validation for team identifiers.
 
-Web3 & DeFi
+Track selection via a terminal-style dropdown.
 
-BioTech & Health
+Deployment success state with simulated "transmission received" feedback.
 
-Open Innovation
+4. Hackathon Domains
 
-4. Legacy Snapshots
+Visualizes the four core tracks:
 
-A grayscale-to-color gallery showcasing previous iterations of Kode Kurrent, maintaining the "developer log" feel.
+AI & Automation: Intelligent agents and LLM-powered workflows.
 
-📂 Project Structure
+Web3 & DeFi: Decentralized finance and smart contracts.
 
-As seen in the kodekurrent.2.0 architecture:
+BioTech & Health: Solutions improving patient care and accessibility.
 
-src/
-├── components/           # UI Logic
-│   ├── CodeBackground    # Matrix effect
-│   ├── Countdown         # Event timer
-│   ├── RegistrationForm  # Deployment protocol
-│   └── Reveal            # Scroll animations
-├── services/             # API & Firebase logic
-├── App.tsx               # Main routing & state
-├── constants.ts          # Static configuration
-├── types.ts              # TypeScript interfaces
-└── main.tsx              # Entry point
+Open Innovation: The wildcard track for unconventional ideas.
+
+5. Live System Schedule
+
+A visual timeline of event execution, from the initSystem() opening ceremony to the final deployProject() pitches.
 
 
-⌨️ Installation & Setup
+🏛 Core System Architects
 
-To replicate the development environment:
+Developed and maintained by the IEEE RGIPT Team.
 
-Clone the repository
+Maker-Saksham Shreyans
 
-git clone [https://github.com/ieee-rgipt/kode-kurrent-26.git](https://github.com/ieee-rgipt/kode-kurrent-26.git)
+📄 License
 
-
-Install Dependencies
-
-npm install
-
-
-Start Development Server
-
-npm run dev
-
-
-Build for Production
-
-npm run build
-
-
-👥 Core System Architects
-
-Developed and maintained by the IEEE RGIPT Student Branch team. The project follows a modular architecture allowing for easy updates to the Hackathon_Domains and System_Schedule.
-
-Developed with ❤️ by the Kode Kurrent Team.
+This project is proprietary software developed for Kode Kurrent '26. All rights reserved.
