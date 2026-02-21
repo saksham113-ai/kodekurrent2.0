@@ -17,7 +17,6 @@ The project is built using a modern, type-safe frontend architecture optimized f
 | **Language** | TypeScript (Strict typing for robust state management) |
 | **Styling** | Tailwind CSS (Utility-first CSS for the terminal/dark-mode aesthetic) |
 | **Animations** | Framer Motion (For the boot sequence, reveal effects, and smooth transitions) |
-
 | **Icons** | Lucide React / FontAwesome (Integrated IDE-style iconography) |
 
 # 🚀 Key Features
