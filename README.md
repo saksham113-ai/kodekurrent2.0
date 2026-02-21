@@ -1,3 +1,5 @@
+deployment link- https://kodekurrent2prototpe.netlify.app/
+
 📟 Kode Kurrent '26
 
 Redefining Reality Through Code.
